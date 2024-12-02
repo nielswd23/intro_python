@@ -14,6 +14,7 @@ with open("example.txt", 'r') as file:
         # handy .rstrip() removes whitespaces. Including "\n"
 
 
+
 ### writing files ### 
 ## file.write()
 with open("my_file.txt", 'w') as file: # note the change in mode -- 'w'
@@ -45,6 +46,8 @@ with open("new_file.txt", 'w') as file:
         file.write(f"{line}\n")	
 
 
+
+### reading and writing ###
 ## + mode
 with open("new_file.txt", 'a+') as file: 
     file.write("Line 5\n")
