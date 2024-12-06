@@ -86,7 +86,3 @@ os.chmod(path + "file1.txt", 0o444)
 # # following code should return an error because file permissions were changed
 # with open(path + "file1.txt", 'w') as file: 
 #     file.write("Corrupted content\n")
-
-
-# TODO : write the argparse python script. And write out some notes in 
-# week5 exercise and week6 exercise based on the notes
